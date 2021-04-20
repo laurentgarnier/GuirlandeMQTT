@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Gestion guirlande</title>
+	</head>
+	
+	<body>
+		<script type="text/javascript">
+		function changeEffect(effect){var httpRequest = new XMLHttpRequest();if (!httpRequest) {  
+					alert(' Cannot create an XMLHTTP instance');return false;} 
+				httpRequest.open('GET', '[requete get sur serveur Nodered]'+effect);httpRequest.send();}
+		</script>
+		<center>
+		<br><br>
+		<input type="submit" value="Arc en ciel par zone" onclick="changeEffect('0')"><br><br>
+		<input type="submit" value="Arc en ciel" onclick="changeEffect('1')"><br><br>
+		<input type="submit" value="Arc en ciel par pas" onclick="changeEffect('2')"><br><br>
+		<input type="submit" value="Meteorite" onclick="changeEffect('3')"><br><br>
+		<input type="submit" value="Multicolor clignotant" onclick="changeEffect('4')"><br><br>
+		<input type="submit" value="Scintillement" onclick="changeEffect('5')"><br><br>
+		<input type="submit" value="Scintillement OL" onclick="changeEffect('6')"><br><br>
+		<input type="submit" value="OL" onclick="changeEffect('7')"><br><br>
+		<input type="submit" value="Poursuite OL" onclick="changeEffect('8')"><br><br>
+		<input type="submit" value="Kitt OL" onclick="changeEffect('9')"><br><br>
+		<input type="submit" value="Poursuite OL 2" onclick="changeEffect('10')"><br><br>
+		<input type="submit" value="Fondu OL" onclick="changeEffect('11')"><br><br>
+		<br><br>
+		</center>
+	</body>
+</html>
